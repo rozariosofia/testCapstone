@@ -1,24 +1,36 @@
 # IBM Data Science Capstone Project - SpaceX
 
+## Executive Summary
+
+The commercial space industry is making space travel more affordable and accessible, with companies like Virgin Galactic, Rocket Lab, Blue Origin, and especially SpaceX leading the way. SpaceX, founded by Elon Musk, has achieved significant milestones, including sending spacecraft to the International Space Station, deploying the Starlink satellite constellation, and launching manned missions to space.
+SpaceX's Falcon 9 rocket is notably cost-effective, at $62 million per launch compared to $165 million for other providers, due to its reusable first stage. Predicting the success of the first stage landing is crucial for determining launch costs and competing effectively.
+
+
 ## Introduction
 
-In this capstone, we will predict if the Falcon 9 first stage will land successfully. SpaceX advertises Falcon 9 rocket launches on its website, with a cost of 62 million dollars; other providers cost upward of 165 million dollars each, much of the savings is because SpaceX can reuse the first stage. Therefore if we can determine if the first stage will land, we can determine the cost of a launch. This information can be used if an alternate company wants to bid against SpaceX for a rocket launch. 
+In this capstone project, my goal is to predict the success of the Falcon 9 first stage landing. SpaceX's ability to reuse this stage significantly reduces launch costs. Accurately predicting the landing success will help determine launch costs and enable competitors to make informed bids.
 
-This capstone project course will give you a taste of what data scientists go through in real life when working with real datasets. You will assume the role of a Data Scientist working for a startup intending to compete with SpaceX, and in the process follow the Data Science methodology involving [data collection](https://github.com/chuksoo/IBM-Data-Science-Capstone-SpaceX/blob/main/Data%20Collection%20API.ipynb), [data wrangling](https://github.com/chuksoo/IBM-Data-Science-Capstone-SpaceX/blob/main/Data%20Wrangling.ipynb), [exploratory data analysis](https://github.com/chuksoo/IBM-Data-Science-Capstone-SpaceX/blob/main/EDA%20with%20SQL.ipynb), [data visualization](https://github.com/chuksoo/IBM-Data-Science-Capstone-SpaceX/blob/main/EDA%20with%20Data%20Visualization.ipynb), [model development](https://github.com/chuksoo/IBM-Data-Science-Capstone-SpaceX/blob/main/Machine%20Learning%20Prediction.ipynb), [model evaluation](https://github.com/chuksoo/IBM-Data-Science-Capstone-SpaceX/blob/main/Machine%20Learning%20Prediction.ipynb), and [reporting](https://github.com/chuksoo/IBM-Data-Science-Capstone-SpaceX/blob/main/Winning%20Space%20Race%20with%20Data%20Science.pdf) your results to stakeholders. You are tasked with predicting if the first stage of the SpaceX Falcon 9 rocket will land successfully. 
+## Requirements
 
-## Business Problem
-SpaceX advertises Falcon 9 rocket launches on its website, with a cost of 62 million dollars; other providers cost upward of 165 million dollars each, much of the savings is because SpaceX can reuse the first stage. Therefore if you can accurately predict the likelihood of the first stage rocket landing successfully, you can determine the cost of a launch. With the help of your Data Science findings and models, the competing startup you have been hired by can make more informed bids against SpaceX for a rocket launch. 
+If we can accurately predict the likelihood of the Falcon 9 first stage landing successfully, we can better estimate launch costs. This insight is vital for the new rocket company, Space Y, to compete with SpaceX by making informed bids for rocket launches. 
 
 ## Objective
-- To apply data science toolkit and machine learning in order to accurately predict the likelihood of the first stage rocket landing successfully, and thus determine the cost of a launch.
-- Explore the data in order to obtain more insight from the data.
 
-## Business metric
-Classification accuracy - number of correct prediction divided by the total number of prediction defined as:
-$$Accuracy = \frac{TP+TN}{TP+FP+TN+FN}$$
+### Predictive Modeling: 
+- Use data science and machine learning to predict the likelihood of successful first stage landings, thus determining launch costs.
+### Data Exploration: 
+- Gain insights from data analysis.
 
-![Confusion matrix](https://github.com/chuksoo/IBM-Data-Science-Capstone-SpaceX/blob/main/Plots/Confusion%20matrix.PNG)
+
+## Scope
+
+As a data scientist for Space Y, I will:
+- Collect Data: Gather information on SpaceX rocket landing missions.
+- Analyze Data: Apply data science techniques to understand landing success factors.
+- Predict Outcomes: Use machine learning to predict first stage landing success.
+
 
 ## Deliverables
-- Accurate predictive algorithms
-- Business case report to stakeholders
+- Predictive Algorithms: Develop accurate models to forecast rocket landing outcomes.
+- Business Report: Provide stakeholders with a detailed report on findings, methodologies, and strategic recommendations.
+
